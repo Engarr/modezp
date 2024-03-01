@@ -43,9 +43,10 @@ const Logo = () => {
             <LinkSmallCard title={'Logo'} link={'/uslugi/logo'} active={true} />
             <LinkSmallCard
               title={'Projektowanie UI'}
-              link={'/uslugi/strona-internetowa/projektowanie-ui'}
+              link={'/uslugi/projektowanie-ui'}
             />
           </div>
+          <div className='w-[100%] bg-main-color h-[1px]' />
           <div className='sm:mb-5 py-3'>
             <h1 className='text-left text-md lg:text-xl my-2'>
               Projektowanie{' '}
