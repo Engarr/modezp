@@ -29,7 +29,7 @@ const Projects = () => {
           />
         </div>
         <div
-          className='relative top-[-7vh] container flex flex-col gradiend w-full md:w-3/4 2xl:w-1/2 
+          className='relative top-[-7vh] container flex flex-col gradiend w-full md:w-3/4 
 		py-3 px-5
 		xl:py-5 xl:px-10'>
           <div className='flex flex-col md:flex-row flex-wrap justify-center gap-2 md:gap-4 xl:gap-6 mb-2 xl:mb-5'>
