@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --main-color: #e7590a;
+  --second-color: #ec4d1d;
+  --third-color: rgb(18, 18, 18);
+  --button-background: #e03600;
+  --button-background-hover: #ed3700;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+.gradiend {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.65) 70%,
+    rgba(19, 18, 18, 0.5)
+  );
+}
