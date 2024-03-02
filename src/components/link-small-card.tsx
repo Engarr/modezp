@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React from 'react';
-import { FaArrowUpLong, FaArrowRightLong } from 'react-icons/fa6';
+import { FaArrowRightLong } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
 

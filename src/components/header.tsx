@@ -47,7 +47,7 @@ const Header = () => {
   return (
     <>
       <motion.header
-        className='sticky flex justify-center w-[100vw] sm:h-[6.5rem]  z-10 top-0  bg-black text-white'
+        className='sticky flex justify-center w-[100vw] sm:h-[6.5rem]  z-50 top-0  bg-black text-white'
         variants={{
           visible: { y: 0 },
           hidden: { y: -200 },

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div>
       <section
-        className={`relative flex lg:py-10 justify-center items-center w-[100%] bg-black bg-opacity-40 min-h-[91vh] mb-10  text-white`}>
+        className={`relative flex lg:py-10 justify-center items-center w-[100%] bg-black bg-opacity-40 min-h-[91vh] mb-10  text-white p-1 xl:p-0`}>
         <div>
           <Image
             src='/background.JPG'
