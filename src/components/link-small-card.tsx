@@ -4,6 +4,7 @@ import React from 'react';
 import { FaArrowRightLong } from 'react-icons/fa6';
 import { motion } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import { usePathname } from 'next/navigation';
 
 type LinkSmallCardType = {
   active?: boolean;
@@ -12,6 +13,8 @@ type LinkSmallCardType = {
 };
 
 const LinkSmallCard = ({ active, title, link }: LinkSmallCardType) => {
+  const location = usePathname();
+  const isActive = location === link;
   return (
     <Link href={link} className='relative z-8'>
       <motion.div className='group'>
@@ -19,7 +22,7 @@ const LinkSmallCard = ({ active, title, link }: LinkSmallCardType) => {
           className={cn(
             'flex justify-center items-centertext-center text-md group-hover:text-main-color text-sm sm:text-base lg:text-xl duration-75',
             {
-              'text-main-color font-bold': active,
+              'text-main-color font-bold': isActive,
             }
           )}>
           {title}

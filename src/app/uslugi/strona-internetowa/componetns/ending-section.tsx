@@ -26,17 +26,25 @@ const EndingSection = () => {
         />
       </div>
       <div className='container mx-auto py-10 lg:py-20 mb-10 '>
-        <SectionTitle style='text-main-bright-color border-b-transparent text-center md:text-start'>
+        <SectionTitle style='text-main-bright-color border-b-transparent text-center md:text-start mb-10'>
           Co nas wyróżnia?
         </SectionTitle>
 
-        <div className=' w-full h-full relative  flex items-center justify-center gap-2 lg:gap-20 flex-col md:flex-row'>
+        <motion.div
+          className=' w-full h-full relative  flex items-center justify-center gap-2 lg:gap-20 flex-col md:flex-row'
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}>
           <WhyUsCard text='Indywidualne podejście' />
           <WhyUsCard text='Stały kontakt' />
           <WhyUsCard text='Terminowa realizacja' />
-        </div>
+        </motion.div>
       </div>
-      <div className='container left-1/2 relative -translate-x-1/2'>
+      <motion.div
+        className='container left-1/2 relative -translate-x-1/2'
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}>
         <div className='  relative mt-[100px]  lg:mt-[100px] grid grid-cols-1 lg:grid-cols-2 px-2 gap-5 lg:gap-0 '>
           <div className=' relative  lg:max-w-[500px] flex flex-col gap-1 lg:gap-4 text-center lg:text-start'>
             <h4 className='text-main-color font-bold text-lg lg:text-3xl mb-2'>
@@ -47,7 +55,7 @@ const EndingSection = () => {
               Państwa witryna będzie doskonale przyjęta przez potencjalnych
               klientów.
             </p>
-            <ul className='flex flex-col gap-2  text-base lg:text-2xl items-center lg:items-start '>
+            <ul className='flex flex-col gap-2  text-base lg:text-2xl items-start px-5 lg:px-0'>
               <li className='flex items-center justify-start'>
                 <IoMdCheckmark className='text-main-color text-[20px] lg:text-[30px]' />
                 <span className='ml-2'>Responsywne</span>
@@ -78,27 +86,27 @@ const EndingSection = () => {
             </div>
           </div>
         </div>
-        <div className='  py-10 text-center lg:text-start'>
-          <h5 className='text-main-color font-bold text-lg lg:text-3xl mb-2'>
+        <div className='  py-10 text-center lg:text-start px-1'>
+          <h5 className='text-main-color font-bold text-lg lg:text-3xl mb-2 '>
             POTRZEBUJESZ STRONY INTERNETOWEJ?
           </h5>
-          <p className='text-base lg:text-xl max-w-[700px] '>
+          <p className='text-base lg:text-xl max-w-[700px]  lg:px-0'>
             Całość formalności możemy dopełnić drogą telefoniczną lub e-mailową.
             Dzięki temu oszczędzisz swój czas oraz pieniądze. Zachęcamy do
             skontaktowania się z nami.
           </p>
           <Link href='/formularz-zgloszeniowy'>
             <motion.button
+              whileTap={{ scale: 0.95 }}
               whileHover={{
                 scale: 1.05,
-                transition: { duration: 0.1 },
               }}
               className='relative bg-button-background text-white  py-2.5 px-6 rounded-3xl  hover:bg-button-background-hover transition-all uppercase mt-5'>
               Formularz zgłoszeniowy{' '}
             </motion.button>
           </Link>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
