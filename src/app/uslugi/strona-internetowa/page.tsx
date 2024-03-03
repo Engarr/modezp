@@ -7,7 +7,6 @@ import ScrollDownBtn from '@/ui/scroll-down-btn';
 import Link from 'next/link';
 import ScrollBar from './componetns/scroll-bar';
 import StepCard from './componetns/step-card';
-import { IoMdCheckmark } from 'react-icons/io';
 import EndingSection from './componetns/ending-section';
 
 const WordPress = () => {
@@ -35,7 +34,7 @@ const WordPress = () => {
         className={`relative flex lg:py-10 justify-center items-center w-[100%] bg-black bg-opacity-40 min-h-[91vh] mb-10  text-white p-1 xl:p-0`}>
         <div className='absolute top-0 right-0 h-full w-full'>
           <Image
-            src='/background.JPG'
+            src='/background.jpg'
             alt='backgorund'
             sizes='100vw'
             fill
@@ -104,14 +103,14 @@ const WordPress = () => {
         <div className='relative'>
           <Image
             alt=''
-            src='/transition.PNG'
+            src='/transition.png'
             width={1940}
             height={603}
             className='hidden lg:inline-block lg:absolute w-full h-full min-h-[300px]  lg:h-[450px] top-[-160px]'
           />
           <Image
             alt=''
-            src='/mobile-transition.PNG'
+            src='/mobile-transition.png'
             width={1940}
             height={403}
             className='absolute w-full h-[250px] top-[-100px] lg:hidden '
@@ -122,7 +121,7 @@ const WordPress = () => {
         <div className='w-full h-full  absolute mt-[80px] lg:mt-[100px]'>
           <Image
             alt=''
-            src='/steps_bg.JPG'
+            src='/steps_bg.jpg'
             fill
             quality={50}
             loading='lazy'

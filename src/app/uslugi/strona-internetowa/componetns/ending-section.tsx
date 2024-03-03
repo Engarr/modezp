@@ -19,7 +19,7 @@ const EndingSection = () => {
         />
         <Image
           alt=''
-          src='/mobile-transition-second.PNG'
+          src='/mobile-transition-second.png'
           width={320}
           height={403}
           className='absolute w-full top-[0px] md:hidden h-full min-h-[500px]'
