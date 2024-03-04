@@ -17,7 +17,7 @@ const Intro = ({}) => {
       <ParticlesContainer />
       <div className='max-h-[100vh]'>
         <Image
-          src='/background.JPG'
+          src='/background.jpg'
           alt='backgorund'
           sizes='100vh'
           quality={80}
