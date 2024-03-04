@@ -5,9 +5,9 @@ import SectionTitle from '@/components/section-header';
 import Contact from '@/app/components/contact';
 import ScrollDownBtn from '@/ui/scroll-down-btn';
 import Link from 'next/link';
-import ScrollBar from './componetns/scroll-bar';
-import StepCard from './componetns/step-card';
-import EndingSection from './componetns/ending-section';
+import ScrollBar from './components/scroll-bar';
+import StepCard from './components/step-card';
+import EndingSection from './components/ending-section';
 import ServicesNav from '../component/services-nav';
 
 const WordPress = () => {
