@@ -132,7 +132,7 @@ type WhyUsCardType = {
 };
 export const WhyUsCard = ({ text }: WhyUsCardType) => {
   return (
-    <div className='bg-main-bright-color w-full h-[100px] lg:w-[330px] lg:h-[200px] rounded-[200px] flex justify-center items-center shadow-2xl px-[10px] py-[15px]'>
+    <div className='bg-main-bright-color w-[90%] h-[100px] lg:w-[330px] lg:h-[200px] rounded-[200px] flex justify-center items-center shadow-2xl px-[10px] py-[15px]'>
       <p className='text-base lg:text-xl xl:text-2xl font-semibold'>{text}</p>
     </div>
   );

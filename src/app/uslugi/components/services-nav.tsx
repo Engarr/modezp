@@ -11,7 +11,7 @@ const ServicesNav = ({ children }: ServicesNavType) => {
   return (
     <motion.div
       className='relative top-[-7vh] container flex flex-col gradiend w-full md:w-3/4  
-             py-3 px-5 xl:py-5 xl:px-10'
+             py-3 px-5 xl:py-5 xl:px-10 mt-2 lg:mt-0'
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}>
       <div className='flex flex-col md:flex-row flex-wrap justify-center gap-2 md:gap-4 xl:gap-6 mb-2 xl:mb-5'>

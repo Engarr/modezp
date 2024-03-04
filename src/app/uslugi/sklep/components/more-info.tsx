@@ -1,5 +1,7 @@
-import SectionTitle from '@/components/section-header';
+'use client';
 import React from 'react';
+import SectionTitle from '@/components/section-header';
+import { motion } from 'framer-motion';
 
 const moreInfoData = [
   {
@@ -22,7 +24,11 @@ const moreInfoData = [
 
 const MoreInfo = () => {
   return (
-    <div className='container left-1/2 relative -translate-x-1/2  mb-20'>
+    <motion.div
+      className='container left-1/2 relative -translate-x-1/2  mb-20'
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ once: true }}>
       <SectionTitle style=' text-center md:text-start my-[50px]'>
         Dowiedz się więcej
       </SectionTitle>
@@ -36,7 +42,7 @@ const MoreInfo = () => {
           </div>
         </div>
       ))}
-    </div>
+    </motion.div>
   );
 };
 

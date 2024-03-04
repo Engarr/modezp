@@ -14,7 +14,7 @@ import MoreInfo from './components/more-info';
 
 const Shop = () => {
   return (
-    <div>
+    <div className='overflow-hidden'>
       <section
         className={`relative flex lg:py-10 justify-center items-center w-[100%] bg-black bg-opacity-40 min-h-[91vh] mb-10 text-white p-1 xl:p-0`}>
         <div>
@@ -97,12 +97,8 @@ const Shop = () => {
           />
           <div className='w-[100%] md:w-[50%] sm:px-5 flex flex-col justify-between text-center sm:text-left'>
             <SectionTitle style='text-main-bright-color border-b-transparent mb-0'>
-              SKLEP INTERNETOWY
+              SKLEP INTERNETOWY (E-COMMERCE)
             </SectionTitle>
-            <span className='mt-[-20px] text-main-bright-color font-semibold lg:text-2xl'>
-              {' '}
-              (E-COMMERCE)
-            </span>
           </div>
         </div>
         <motion.div
