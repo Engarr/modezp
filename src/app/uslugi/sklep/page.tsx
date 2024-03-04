@@ -6,7 +6,7 @@ import SectionTitle from '@/components/section-header';
 import Contact from '@/app/components/contact';
 import ScrollDownBtn from '@/ui/scroll-down-btn';
 import Link from 'next/link';
-import ServicesNav from '../component/services-nav';
+import ServicesNav from '../components/services-nav';
 import { motion } from 'framer-motion';
 import { IoMdCheckmark } from 'react-icons/io';
 import { WhyUsCard } from '../strona-internetowa/components/ending-section';

@@ -8,7 +8,7 @@ import Link from 'next/link';
 import ScrollBar from './components/scroll-bar';
 import StepCard from './components/step-card';
 import EndingSection from './components/ending-section';
-import ServicesNav from '../component/services-nav';
+import ServicesNav from '../components/services-nav';
 
 const WordPress = () => {
   const stepsData = [

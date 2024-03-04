@@ -3,7 +3,7 @@ import React from 'react';
 import SectionTitle from '@/components/section-header';
 import Contact from '@/app/components/contact';
 import ScrollDownBtn from '@/ui/scroll-down-btn';
-import ServicesNav from '../component/services-nav';
+import ServicesNav from '../components/services-nav';
 
 const Logo = () => {
   return (
