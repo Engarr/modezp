@@ -24,8 +24,22 @@ const EndingSection = () => {
           height={403}
           className='absolute w-full top-[0px] md:hidden h-full min-h-[500px]'
         />
+        <Image
+          alt=''
+          src='/decoration.png'
+          width={214}
+          height={259}
+          className='absolute w-[80px] top-[400px] lg:top-[200px] rotate-45 opacity-60'
+        />
+        <Image
+          alt=''
+          src='/decoration.png'
+          width={214}
+          height={259}
+          className='absolute w-[100px] lg:w-[150px] lg:top-[-100px]  top-[-50px] right-0 opacity-50 rotate-90'
+        />
       </div>
-      <div className='container mx-auto py-10 lg:py-20 mb-10 '>
+      <div className='container mx-auto py-10 lg:py-20 mb-10 relative '>
         <SectionTitle style='text-main-bright-color border-b-transparent text-center md:text-start mb-10'>
           Co nas wyróżnia?
         </SectionTitle>

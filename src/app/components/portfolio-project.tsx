@@ -52,9 +52,9 @@ const PortfolioProject = ({
     <>
       {side === 'right' ? (
         <div
-          className={`flex flex-col justify-around lg:flex-row w-[100%] py-1 lg:py-5 `}>
+          className={`flex flex-col justify-around lg:flex-row w-[100%] ${backgroundColor}`}>
           <motion.div
-            className='relative  w-[100%] lg:w-[50%] lg:pr-0 group '
+            className='relative mr-auto w-[100%] lg:w-[50%] lg:pr-10 group'
             ref={ref}
             style={{
               scale: scaleProgess,
@@ -63,9 +63,9 @@ const PortfolioProject = ({
               once: true,
             }}>
             <a href={link} target='_blank' rel='noopener noreferrer'>
-              <div className='relative  h-auto w-[400px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 px-10 lg:px-0'>
+              <div className='relative w-full h-auto'>
                 <motion.div
-                  className='absolute inset-0 hidden lg:flex justify-center items-center  group-hover:bg-opacity-70 transition-opacity duration-300 ease-in-out '
+                  className='absolute inset-0 hidden lg:flex justify-center items-center bg-black bg-opacity-0 group-hover:bg-opacity-70 transition-opacity duration-300 ease-in-out'
                   initial={{ opacity: 0, scale: 1 }}
                   animate={controls}
                   onMouseEnter={handleMouseEnter}
@@ -76,7 +76,7 @@ const PortfolioProject = ({
                       scale: 1.05,
                       transition: { duration: 0.1 },
                     }}
-                    className='opacity-0 group-hover:opacity-100 bg-button-background outline-none text-white text-md lg:text-md py-2 px-4 rounded-3xl  hover:bg-button-background-hover transition-all uppercase relative mt-[150px]'>
+                    className='opacity-0 group-hover:opacity-100 bg-button-background outline-none text-white text-md lg:text-md py-2 px-4 rounded-3xl  hover:bg-button-background-hover transition-all uppercase'>
                     Pokaż stronę
                   </motion.button>
                 </motion.div>
@@ -86,7 +86,7 @@ const PortfolioProject = ({
                   width={width}
                   height={height}
                   sizes='100vw'
-                  className='w-full h-auto px-4 lg:p-0'
+                  className='w-full h-auto'
                   loading='lazy'
                 />
               </div>
@@ -95,10 +95,10 @@ const PortfolioProject = ({
               href={link}
               target='_blank'
               rel='noopener noreferrer'
-              className='flex justify-center lg:hidden '>
+              className='flex justify-center lg:hidden'>
               <button
                 name='free consultation'
-                className=' bg-button-background outline-none text-white text-sm py-2 px-10 lg:px-4 rounded-3xl mt-0 z-40'>
+                className=' bg-button-background outline-none text-white text-sm py-2 px-4 rounded-3xl mt-5'>
                 Pokaż stronę
               </button>
             </a>
@@ -111,12 +111,8 @@ const PortfolioProject = ({
             viewport={{
               once: true,
             }}>
-            <div className='lg:max-w-[600px] relative'>
-              <h2 className='text-md md:text-xl xl:text-2xl my-3 font-semibold'>
-                {title}
-              </h2>
-              <p className='text-sm md:text-lg xl:text-base italic'>{text}</p>
-            </div>
+            <h2 className='text-md md:text-2xl xl:text-3xl my-2'>{title}</h2>
+            <p className='text-sm md:text-lg xl:text-xl'>{text}</p>
           </motion.div>
         </div>
       ) : (
@@ -130,23 +126,19 @@ const PortfolioProject = ({
             viewport={{
               once: true,
             }}>
-            <div className='lg:max-w-[600px] relative'>
-              <h2 className='text-md md:text-xl xl:text-2xl my-3 font-semibold'>
-                {title}
-              </h2>
-              <p className='text-sm md:text-lg xl:text-base italic'>{text}</p>
-            </div>
+            <h2 className='text-md md:text-2xl xl:text-3xl my-2'>{title}</h2>
+            <p className='text-sm md:text-lg xl:text-xl'>{text}</p>
           </motion.div>
           <motion.div
-            className='relative ml-auto w-[100%] lg:w-[50%] lg:pl-10 group '
+            className='relative ml-auto w-[100%] lg:w-[50%] lg:pl-10 group'
             ref={ref}
             style={{
               scale: scaleProgess,
             }}>
             <a href={link} target='_blank' rel='noopener noreferrer'>
-              <div className='relative  h-auto w-[400px] left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 px-10 lg:px-0'>
+              <div className='relative w-full h-auto'>
                 <motion.div
-                  className='absolute inset-0 hidden lg:flex justify-center items-center  group-hover:bg-opacity-70 transition-opacity duration-300 ease-in-out '
+                  className='absolute hidden lg:flex inset-0  justify-center items-center bg-black bg-opacity-0 group-hover:bg-opacity-70 transition-opacity duration-300 ease-in-out'
                   initial={{ opacity: 0, scale: 1 }}
                   animate={controls}
                   onMouseEnter={handleMouseEnter}
@@ -157,7 +149,7 @@ const PortfolioProject = ({
                       scale: 1.05,
                       transition: { duration: 0.1 },
                     }}
-                    className='opacity-0 group-hover:opacity-100 bg-button-background outline-none text-white text-md lg:text-md py-2 px-4 rounded-3xl  hover:bg-button-background-hover transition-all uppercase relative mt-[150px]'>
+                    className='opacity-0 group-hover:opacity-100 bg-button-background outline-none text-white text-md lg:text-md py-2 px-4 rounded-3xl  hover:bg-button-background-hover transition-all uppercase'>
                     Pokaż stronę
                   </motion.button>
                 </motion.div>
@@ -167,7 +159,7 @@ const PortfolioProject = ({
                   width={width}
                   height={height}
                   sizes='100vw'
-                  className='w-full h-auto px-4 lg:p-0 '
+                  className='w-full h-auto'
                   loading='lazy'
                 />
               </div>
@@ -179,7 +171,7 @@ const PortfolioProject = ({
               className='flex justify-center lg:hidden'>
               <button
                 name='free consultation'
-                className=' bg-button-background outline-none text-white   text-sm py-2 px-10 lg:px-4 rounded-3xl mt-0 z-40'>
+                className=' bg-button-background outline-none text-white text-sm py-2 px-4 rounded-3xl mt-5'>
                 Pokaż stronę
               </button>
             </a>

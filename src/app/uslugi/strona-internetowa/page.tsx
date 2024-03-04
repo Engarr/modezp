@@ -14,17 +14,17 @@ const WordPress = () => {
   const stepsData = [
     {
       title: 'PLAN',
-      text: 'Podczas spotkania lub rozmowy telefonicznej ustalamy szczegóły projektu. Poznajemy wymagania i gust klienta. W trakcie wszystkich etapów jesteśmy w stałym kontakcie z klientami.',
+      text: 'Podczas spotkania lub rozmowy telefonicznej ustalamy szczegóły projektu. Poznajemy wymagania i gust klienta. W trakcie wszystkich etapów jesteśmy w stałym kontakcie z klientami',
       step: 'Etap I',
     },
     {
       title: 'REALIZACJA',
-      text: 'Następnym etapem jest realizacja. Projektując podchodzimy do każdego klienta indywidualnie. Mając na uwadze przede wszystkim gust Klienta oraz wymagania. Nie korzystamy z gotowych szablonów. Realizując projekt, na bieżąco informujemy o postępujących etapach.',
+      text: 'Następnym etapem jest realizacja. Projektując podchodzimy do każdego klienta indywidualnie. Mając na uwadze przede wszystkim gust Klienta oraz wymagania. Nie korzystamy z gotowych szablonów. Realizując projekt, na bieżąco informujemy o postępujących etapach',
       step: 'Etap II',
     },
     {
       title: 'GOTOWY PROJEKT',
-      text: 'Na koniec przygotowany projekt przedstawiamy klientowi do akceptacji. Wprowadzamy ewentualne korekty, które są już zawarte w cenie.',
+      text: 'Na koniec przygotowany projekt przedstawiamy klientowi do akceptacji. Wprowadzamy ewentualne korekty, które są już zawarte w cenie',
       step: 'Etap III',
     },
   ];
@@ -111,7 +111,21 @@ const WordPress = () => {
             className='opacity-20 z-[-10] relative'
           />
         </div>
-        <div className='container  mx-auto pb-20'>
+        <div className='container  mx-auto pb-20 relative'>
+          <Image
+            alt=''
+            src='/decoration.png'
+            width={214}
+            height={259}
+            className='absolute w-[100px] top-[100px] rotate-180 opacity-80'
+          />
+          <Image
+            alt=''
+            src='/decoration.png'
+            width={214}
+            height={259}
+            className='absolute w-[200px] top-[100px] right-0 opacity-60'
+          />
           <div className='w-[100%] md:w-[50%] sm:px-5 flex flex-col justify-between text-center sm:text-left'>
             <SectionTitle style='text-main-bright-color border-b-transparent'>
               Jak działamy

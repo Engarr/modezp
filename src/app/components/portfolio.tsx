@@ -17,15 +17,15 @@ const Portfolio = () => {
           link={'https://osk-neocar.pl/'}
           backgroundColor={'bg-transparent'}
           textColor={'text-black'}
-          src='/portfolio2.png'
+          src='/portfolio2.jpg'
           alt='strone Neocar'
-          width={714}
-          height={604}
+          width={954}
+          height={591}
           title={
             'Przyjazne wizualnie środowisko, które wywołuje pozytywne emocje i zachęca przyszłych kursantów do podjęcia decyzji o nauce jazdy właśnie w NeoCar.'
           }
           text={
-            'Struktura strony zaprojektowana do łatwego odnalezienia niezbędnych informacji.'
+            'Struktura strony zaprojektowana do łatwego odnalezienia niezbednych informacji.'
           }
         />
         <PortfolioProject
@@ -33,10 +33,10 @@ const Portfolio = () => {
           link={'http://www.adrianpruchnik.pl/'}
           backgroundColor={'bg-transparent'}
           textColor={'text-black'}
-          src='/portfolio3.png'
+          src='/portfolio3.jpg'
           alt='strona Adriana Pruchnika'
-          width={714}
-          height={604}
+          width={954}
+          height={591}
           title={`Wizualnie zachwycająca przestrzeń, inspirująca emocje i pasję, zachęcająca do odkrywania świata fotografii z Adrianem.`}
           text={`Strona stworzona z myślą o łatwym dostępie do kluczowych informacji i galerii. Wyjątkowe kompozycje i estetyka prezentacji prac podkreślają artystyczny charakter i profesjonalizm.`}
         />
@@ -45,10 +45,10 @@ const Portfolio = () => {
           link={'https://transwos.pl/'}
           backgroundColor={'bg-transparent'}
           textColor={'text-black'}
-          src='/portfolio1.png'
+          src='/portfolio1.jpg'
           alt='Strona pomocy drogowej'
-          width={714}
-          height={604}
+          width={1636}
+          height={863}
           title={`"Natychmiastowa pomoc drogowa, na którą możesz liczyć"-TRANSWOŚ.`}
           text={`Nasza strona oferuje łatwy dostęp do wyraźnie widocznego numeru telefonu, zapewniając szybki kontakt w sytuacjach awaryjnych. To właśnie tego typu strony powinny cechować się prostotą. `}
         />
@@ -57,10 +57,10 @@ const Portfolio = () => {
           link={'https://credo-psi.vercel.app/'}
           backgroundColor={'bg-transparent'}
           textColor={'text-black'}
-          src='/portfolio4.png'
+          src='/portfolio4.jpg'
           alt='Strona biura pielgrzymkowo-turystycznego CREDO'
-          width={714}
-          height={604}
+          width={954}
+          height={591}
           title={`Zachwycające miejsce, które budzi inspirację i zachęca do odkrywania nowych kierunków podróży z biurem pielgrzymkowo-turystycznym CREDO.`}
           text={`Strona została zaprojektowana z myślą o intuicyjnej nawigacji i bezproblemowym dostępie do najważniejszych informacji oraz oferty wycieczek.`}
         />
@@ -69,10 +69,10 @@ const Portfolio = () => {
           link={'https://wik-land-front.vercel.app/'}
           backgroundColor={'bg-transparent'}
           textColor={'text-black'}
-          src='/portfolio5.png'
+          src='/portfolio5.jpg'
           alt='Strona sklepu Wikland'
-          width={714}
-          height={604}
+          width={900}
+          height={493}
           title={`Strona Wickerland oferuje wyjątkowe wyroby z wikliny, łącząc tradycję z nowoczesnością.`}
           text={`Strona sklepów internetowych projektowane są przede wszystkim z dbałością o intuicyjność korzystania z interfejsu. Użytkownik musi łatwo odnaleźć potrzebne funkcje by chętnie wracała do zakupów`}
         />

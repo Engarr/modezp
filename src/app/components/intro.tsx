@@ -30,9 +30,8 @@ const Intro = ({}) => {
           alt='backgorund-mobile'
           fill
           quality={80}
-          objectFit='cover'
           priority
-          className='sm:hidden z-[-3]'
+          className='sm:hidden z-[-3] object-cover'
         />
       </div>
       <div className='relative top-[-9vh] flex flex-col justify-center md:items-center h-[100%] w-[100%] '>
