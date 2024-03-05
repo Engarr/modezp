@@ -141,7 +141,9 @@ const WordPress = () => {
                   step={d.step}
                   title={d.title}
                   index={index}
-                  style={index === 0 ? 'text-main-bright-color' : ''}
+                  style={
+                    index === 0 ? 'lg:text-main-bright-color mt-[50px] ' : ''
+                  }
                 />
               </React.Fragment>
             ))}
