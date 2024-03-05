@@ -111,13 +111,24 @@ const PortfolioProject = ({
             viewport={{
               once: true,
             }}>
-            <h2 className='text-md md:text-2xl xl:text-3xl my-2'>{title}</h2>
-            <p className='text-sm md:text-lg xl:text-xl'>{text}</p>
+            <div className='absolute right-0 top-0 lg:right-[2%]  lg:top-[20px] '>
+              <Image
+                alt=''
+                src='/corner.png'
+                width={69}
+                height={65}
+                className=' opacity-55'
+              />
+            </div>
+            <h2 className='text-md md:text-2xl xl:text-2xl font-semibold my-2'>
+              {title}
+            </h2>
+            <p className='text-sm md:text-lg xl:text-xl italic'>{text}</p>
           </motion.div>
         </div>
       ) : (
         <div
-          className={`relative flex flex-col lg:flex-row w-[100%] ${backgroundColor}`}>
+          className={`relative flex flex-col lg:flex-row w-[100%]  ${backgroundColor}`}>
           <motion.div
             className={`flex flex-col order-last lg:order-first mx-auto sm:gap-5 mb-10 justify-center p-2 sm:p-10 w-[100%] lg:w-[50%] ${textColor}`}
             initial={{ opacity: 0, translateX: '-30px' }}
@@ -126,8 +137,19 @@ const PortfolioProject = ({
             viewport={{
               once: true,
             }}>
-            <h2 className='text-md md:text-2xl xl:text-3xl my-2'>{title}</h2>
-            <p className='text-sm md:text-lg xl:text-xl'>{text}</p>
+            <div className='absolute left-0 lg:left-[-50px] lg:bottom-0 bottom-[-20px] rotate-180 w-[50px] lg:w-[100px]'>
+              <Image
+                alt=''
+                src='/corner.png'
+                width={69}
+                height={65}
+                className='opacity-55'
+              />
+            </div>
+            <h2 className='text-md md:text-2xl xl:text-2xl font-semibold my-2'>
+              {title}
+            </h2>
+            <p className='text-sm md:text-lg xl:text-xl italic'>{text}</p>
           </motion.div>
           <motion.div
             className='relative ml-auto w-[100%] lg:w-[50%] lg:pl-10 group'

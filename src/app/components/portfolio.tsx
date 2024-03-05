@@ -5,7 +5,7 @@ import PortfolioProject from './portfolio-project';
 
 const Portfolio = () => {
   return (
-    <section className='my-5 container mx-auto pb-10 '>
+    <section className='my-5 container mx-auto pb-10 overflow-hidden '>
       <div className='container sm:mx-auto sm:px-5'>
         <div className='w-[100%] md:w-[100%] flex flex-col justify-between text-center sm:text-left'>
           <SectionTitle>Nasze realizacje</SectionTitle>
