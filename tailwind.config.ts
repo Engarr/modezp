@@ -20,6 +20,7 @@ module.exports = {
         'button-background': 'var(--button-background)',
         'button-background-hover': 'var(--button-background-hover)',
         'main-bright-color': 'var(--main-bright-color)',
+        'input-focus': 'var(--input-focus)',
       },
     },
   },
