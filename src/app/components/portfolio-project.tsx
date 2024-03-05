@@ -117,7 +117,7 @@ const PortfolioProject = ({
                 src='/corner.png'
                 width={69}
                 height={65}
-                className=' opacity-55'
+                className=' opacity-55 w-[50px]'
               />
             </div>
             <h2 className='text-md md:text-2xl xl:text-2xl font-semibold my-2'>
@@ -143,7 +143,7 @@ const PortfolioProject = ({
                 src='/corner.png'
                 width={69}
                 height={65}
-                className='opacity-55'
+                className='opacity-55 w-[50px]'
               />
             </div>
             <h2 className='text-md md:text-2xl xl:text-2xl font-semibold my-2'>

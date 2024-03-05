@@ -21,7 +21,7 @@ const Standards = () => {
           className=''
         />
       </div>
-      <div className='absolute w-[150px] right-0 top-1/2 rotate-45 opacity-40'>
+      <div className='absolute w-[150px] right-[10%] top-1/2 rotate-45 opacity-40'>
         <Image
           alt=''
           src='/decoration-black.png'
