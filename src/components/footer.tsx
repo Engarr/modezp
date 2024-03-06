@@ -73,6 +73,12 @@ const Footer = () => {
             internetowe, wykorzystując najnowsze technologie, aby zapewnić
             naszym klientom najlepsze rezultaty.
           </p>
+          <Link
+            href='/polityka-prywatnosci'
+            className='text-xs lg:text-md  hover:text-blue-400 duration-150
+            mt-1'>
+            Polityka prywatności
+          </Link>
         </div>
 
         <div className=' flex gap-3 lg:gap-0 flex-col md:flex-row justify-around w-full'>
