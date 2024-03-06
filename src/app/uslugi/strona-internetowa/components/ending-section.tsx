@@ -8,7 +8,7 @@ import { IoMdCheckmark } from 'react-icons/io';
 
 const EndingSection = () => {
   return (
-    <section className='relative  mb-20 min-h-[100vh] '>
+    <section className='relative  mb-20  '>
       <div className='absolute w-full '>
         <Image
           alt=''
