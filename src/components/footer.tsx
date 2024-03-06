@@ -66,6 +66,7 @@ const Footer = () => {
               height={100}
               sizes='100vh'
               className='mb-2'
+			  loading='lazy'
             />
           </Link>
           <p className='text-sm'>

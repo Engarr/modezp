@@ -89,6 +89,7 @@ const WordPress = () => {
             src='/transition.png'
             width={1940}
             height={603}
+            loading='lazy'
             className='hidden lg:inline-block lg:absolute w-full h-full min-h-[300px]  lg:h-[450px] top-[-160px]'
           />
           <Image
@@ -96,6 +97,7 @@ const WordPress = () => {
             src='/mobile-transition.png'
             width={1940}
             height={403}
+            loading='lazy'
             className='absolute w-full h-[250px] top-[-100px] lg:hidden '
           />
         </div>
@@ -117,6 +119,7 @@ const WordPress = () => {
             src='/decoration.png'
             width={214}
             height={259}
+            loading='lazy'
             className='absolute w-[100px] top-[100px] rotate-180 opacity-80'
           />
           <Image
@@ -124,6 +127,7 @@ const WordPress = () => {
             src='/decoration.png'
             width={214}
             height={259}
+            loading='lazy'
             className='absolute w-[200px] top-[100px] right-0 opacity-60'
           />
           <div className='w-[100%] md:w-[50%] sm:px-5 flex flex-col justify-between text-center sm:text-left'>

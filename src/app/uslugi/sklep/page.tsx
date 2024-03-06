@@ -69,6 +69,7 @@ const Shop = () => {
             width={1940}
             height={603}
             className='hidden lg:inline-block lg:absolute w-full h-full min-h-[300px]  lg:h-[450px] top-[-160px]'
+            loading='lazy'
           />
           <Image
             alt=''
@@ -76,6 +77,7 @@ const Shop = () => {
             width={1940}
             height={403}
             className='absolute w-full h-[250px] top-[-100px] lg:hidden '
+            loading='lazy'
           />
         </div>
       </div>
@@ -87,6 +89,7 @@ const Shop = () => {
             width={214}
             height={259}
             className='absolute w-[40px] lg:w-[100px] top-[50px] lg:top-[100px] rotate-180 opacity-80'
+            loading='lazy'
           />
           <Image
             alt=''
@@ -94,6 +97,7 @@ const Shop = () => {
             width={214}
             height={259}
             className='absolute w-[60px] lg:w-[200px] top-[-60px] lg:top-[-20px] right-0 opacity-60 z-40 '
+            loading='lazy'
           />
           <div className='w-[100%] md:w-[50%] sm:px-5 flex flex-col justify-between text-center sm:text-left'>
             <SectionTitle style='text-main-bright-color border-b-transparent mb-0'>
@@ -182,6 +186,7 @@ const Shop = () => {
               width={1940}
               height={603}
               className='hidden md:inline-block md:absolute w-full h-full min-h-[400px] top-[-100px] '
+              loading='lazy'
             />
             <Image
               alt=''
@@ -189,6 +194,7 @@ const Shop = () => {
               width={320}
               height={403}
               className='absolute w-full top-[0px] md:hidden h-full min-h-[500px]'
+              loading='lazy'
             />
             <Image
               alt=''
@@ -196,6 +202,7 @@ const Shop = () => {
               width={214}
               height={259}
               className='absolute w-[80px] top-[400px] lg:top-[100px] rotate-45 opacity-60 left-[50px] lg:left-[10px]'
+              loading='lazy'
             />
             <Image
               alt=''
@@ -203,6 +210,7 @@ const Shop = () => {
               width={214}
               height={259}
               className='absolute w-[100px] lg:w-[150px] lg:top-[-100px]  top-[-50px] right-0 opacity-50 rotate-90'
+              loading='lazy'
             />
           </div>
 

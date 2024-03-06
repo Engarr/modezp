@@ -89,6 +89,8 @@ const Portfolio = () => {
             src='/image.png'
             width={800}
             height={457}
+            loading='lazy'
+            quality={80}
             className='w-full right-0  relative'
           />
         </div>
