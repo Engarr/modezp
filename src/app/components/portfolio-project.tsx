@@ -120,6 +120,15 @@ const PortfolioProject = ({
                 className=' opacity-55 w-[50px]'
               />
             </div>
+            <div className='absolute left-0 lg:left-[-50px] lg:bottom-0 bottom-[-20px] rotate-180 w-[50px] lg:w-[100px]'>
+              <Image
+                alt=''
+                src='/corner.png'
+                width={69}
+                height={65}
+                className='opacity-55 w-[50px]'
+              />
+            </div>
             <h2 className='text-md md:text-2xl xl:text-2xl font-semibold my-2'>
               {title}
             </h2>
@@ -137,6 +146,15 @@ const PortfolioProject = ({
             viewport={{
               once: true,
             }}>
+            <div className='absolute right-0 top-0 lg:right-[2%]  lg:top-[20px] '>
+              <Image
+                alt=''
+                src='/corner.png'
+                width={69}
+                height={65}
+                className=' opacity-55 w-[50px]'
+              />
+            </div>
             <div className='absolute left-0 lg:left-[-50px] lg:bottom-0 bottom-[-20px] rotate-180 w-[50px] lg:w-[100px]'>
               <Image
                 alt=''

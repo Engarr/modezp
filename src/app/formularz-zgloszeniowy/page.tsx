@@ -36,10 +36,10 @@ const FormRegistration = () => {
       <div className='container mx-auto  flex flex-col justify-between text-center mt-10 sm:text-left  '>
         <SectionTitle>Formularz Wyceny</SectionTitle>
       </div>
-      <section className='relative container mx-auto pb-32   p-3 '>
+      <section className='relative container mx-auto pb-32  p-3 '>
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className='flex flex-col justify-around gap-1 text-sm sm:text-md  text-black lg:pl-20'>
+          className='flex flex-col justify-around gap-1 text-sm sm:text-md  text-black  left-1/2 -translate-x-1/2 relative lg:w-1/2'>
           <p className='text-lg font-semibold'>
             Zapraszamy do uzupełnienia krótkiego formularza i otrzymania
             darmowej wyceny.
@@ -157,7 +157,6 @@ const FormRegistration = () => {
                 text='Jakie funkcje proponowaliby Państwo, aby były dostępne na
 			  stronie? '
                 placeholder='(np. formularz kontaktowy, galeria zdjęć itp.)'
-                style='max-w-[400px] w-full'
               />
             )}
           />
@@ -396,7 +395,7 @@ const Input = <T extends FieldValues, K extends Path<T>>({
         {...field}
         type={type}
         className={cn(
-          'p-2 shadow-lg lg:w-[450px] w-full rounded-md my-2 border-2 border-gray-300 bg-gray-50 focus:outline-none  focus:border-input-focus',
+          'p-2 shadow-lg lw-full  rounded-sm my-2 border-2 border-gray-300 bg-gray-50 focus:outline-none  focus:border-input-focus',
           style
         )}
         placeholder={placeholder}

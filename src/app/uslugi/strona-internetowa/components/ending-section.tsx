@@ -100,26 +100,7 @@ const EndingSection = () => {
             </div>
           </div>
         </div>
-        <div className='  py-10 text-center lg:text-start px-1'>
-          <h5 className='text-main-color font-bold text-lg lg:text-3xl mb-2 '>
-            POTRZEBUJESZ STRONY INTERNETOWEJ?
-          </h5>
-          <p className='text-base lg:text-xl max-w-[700px]  lg:px-0'>
-            Całość formalności możemy dopełnić drogą telefoniczną lub e-mailową.
-            Dzięki temu oszczędzisz swój czas oraz pieniądze. Zachęcamy do
-            skontaktowania się z nami.
-          </p>
-          <Link href='/formularz-zgloszeniowy'>
-            <motion.button
-              whileTap={{ scale: 0.95 }}
-              whileHover={{
-                scale: 1.05,
-              }}
-              className='relative bg-button-background text-white  py-2.5 px-6 rounded-3xl  hover:bg-button-background-hover transition-all uppercase mt-5'>
-              Formularz zgłoszeniowy{' '}
-            </motion.button>
-          </Link>
-        </div>
+        <Invitation />
       </motion.div>
     </section>
   );
@@ -134,6 +115,30 @@ export const WhyUsCard = ({ text }: WhyUsCardType) => {
   return (
     <div className='bg-main-bright-color w-[90%] h-[100px] lg:w-[330px] lg:h-[200px] rounded-[200px] flex justify-center items-center shadow-2xl px-[10px] py-[15px]'>
       <p className='text-base lg:text-xl xl:text-2xl font-semibold'>{text}</p>
+    </div>
+  );
+};
+export const Invitation = () => {
+  return (
+    <div className='  py-10 text-center lg:text-start px-1'>
+      <h5 className='text-main-color font-bold text-lg lg:text-3xl mb-2 lg:mb-4 '>
+        POTRZEBUJESZ STRONY INTERNETOWEJ?
+      </h5>
+      <p className='text-base lg:text-xl max-w-[700px]  lg:px-0'>
+        Całość formalności możemy dopełnić drogą telefoniczną lub e-mailową.
+        Dzięki temu oszczędzisz swój czas oraz pieniądze. Zachęcamy do
+        skontaktowania się z nami.
+      </p>
+      <Link href='/formularz-zgloszeniowy'>
+        <motion.button
+          whileTap={{ scale: 0.95 }}
+          whileHover={{
+            scale: 1.05,
+          }}
+          className='relative bg-button-background text-white  py-2.5 px-6 rounded-3xl  hover:bg-button-background-hover transition-all uppercase mt-5'>
+          Formularz zgłoszeniowy{' '}
+        </motion.button>
+      </Link>
     </div>
   );
 };

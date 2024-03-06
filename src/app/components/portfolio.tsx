@@ -2,6 +2,8 @@
 import SectionTitle from '@/components/section-header';
 import React from 'react';
 import PortfolioProject from './portfolio-project';
+import { Invitation } from '../uslugi/strona-internetowa/components/ending-section';
+import Image from 'next/image';
 
 const Portfolio = () => {
   return (
@@ -76,6 +78,15 @@ const Portfolio = () => {
           title={`Strona Wickerland oferuje wyjątkowe wyroby z wikliny, łącząc tradycję z nowoczesnością.`}
           text={`Strona sklepów internetowych projektowane są przede wszystkim z dbałością o intuicyjność korzystania z interfejsu. Użytkownik musi łatwo odnaleźć potrzebne funkcje by chętnie wracała do zakupów`}
         />
+      </div>
+      <div className='lg:my-12 relative'>
+        <div className='clipPath h-full absolute w-full lg:w-1/2 right-0  z-[-10] '>
+          <div className='bg-white/90 lg:bg-black/25  absolute top-0 left-0 h-full w-full z-20' />
+          <Image alt='' src='/image.jpg' fill className='object-cover' />
+        </div>
+        <div className=''>
+          <Invitation />
+        </div>
       </div>
     </section>
   );
