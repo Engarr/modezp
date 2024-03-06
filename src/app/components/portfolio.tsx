@@ -79,13 +79,18 @@ const Portfolio = () => {
           text={`Strona sklepów internetowych projektowane są przede wszystkim z dbałością o intuicyjność korzystania z interfejsu. Użytkownik musi łatwo odnaleźć potrzebne funkcje by chętnie wracała do zakupów`}
         />
       </div>
-      <div className='lg:my-12 relative'>
-        <div className='clipPath h-full absolute w-full lg:w-1/2 right-0  z-[-10] '>
-          <div className='bg-white/90 lg:bg-black/25  absolute top-0 left-0 h-full w-full z-20' />
-          <Image alt='' src='/image.jpg' fill className='object-cover' />
-        </div>
+      <div className='lg:my-12 relative flex flex-col lg:flex-row  items-center lg:items-start'>
         <div className=''>
           <Invitation />
+        </div>
+        <div className=' h-full relative  right-0  z-[-10] '>
+          <Image
+            alt=''
+            src='/image.png'
+            width={800}
+            height={457}
+            className='w-full right-0  relative'
+          />
         </div>
       </div>
     </section>

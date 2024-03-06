@@ -120,11 +120,11 @@ export const WhyUsCard = ({ text }: WhyUsCardType) => {
 };
 export const Invitation = () => {
   return (
-    <div className='  py-10 text-center lg:text-start px-1'>
-      <h5 className='text-main-color font-bold text-lg lg:text-3xl mb-2 lg:mb-4 '>
+    <div className='  py-10 text-center lg:text-start px-2'>
+      <h5 className='text-main-color font-bold text-base md:text-lg  lg:text-3xl mb-2 lg:mb-4 '>
         POTRZEBUJESZ STRONY INTERNETOWEJ?
       </h5>
-      <p className='text-base lg:text-xl max-w-[700px]  lg:px-0'>
+      <p className='text-sm lg:text-xl max-w-[700px]  lg:px-0 '>
         Całość formalności możemy dopełnić drogą telefoniczną lub e-mailową.
         Dzięki temu oszczędzisz swój czas oraz pieniądze. Zachęcamy do
         skontaktowania się z nami.
@@ -135,7 +135,7 @@ export const Invitation = () => {
           whileHover={{
             scale: 1.05,
           }}
-          className='relative bg-button-background text-white  py-2.5 px-6 rounded-3xl  hover:bg-button-background-hover transition-all uppercase mt-5'>
+          className='relative bg-button-background text-white  py-2.5 px-6 rounded-3xl  hover:bg-button-background-hover transition-all uppercase mt-5 font-semibold'>
           Formularz zgłoszeniowy{' '}
         </motion.button>
       </Link>
