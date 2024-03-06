@@ -59,7 +59,7 @@ const Footer = () => {
         <div className=' max-w-[20rem] items-center xl:items-start flex flex-col mb-5 xl:mb-0 '>
           <Link href='/'>
             <Image
-              src='/logo.png'
+              src='/logo.jpg'
               alt='logo'
               width={100}
               height={100}
