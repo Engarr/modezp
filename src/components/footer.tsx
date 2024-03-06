@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-'use client';
-import React from 'react';
 
+import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebookSquare } from 'react-icons/fa';
@@ -66,7 +65,7 @@ const Footer = () => {
               height={100}
               sizes='100vh'
               className='mb-2'
-			  loading='lazy'
+              loading='lazy'
             />
           </Link>
           <p className='text-sm'>
@@ -104,7 +103,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className=' flex flex-col items-center justify-center text-xs mt-2 w-full'></div>
     </footer>
   );
 };
