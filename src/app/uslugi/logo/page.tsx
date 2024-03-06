@@ -12,7 +12,7 @@ const Logo = () => {
         className={`relative flex lg:py-10 justify-center items-center w-[100%] bg-black bg-opacity-40 min-h-[91vh] mb-10  text-white p-1 xl:p-0`}>
         <div>
           <Image
-            src='/background.JPG'
+            src='/background.jpg'
             alt='backgorund'
             sizes='100vw'
             fill
