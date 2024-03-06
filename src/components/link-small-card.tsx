@@ -7,11 +7,12 @@ import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
 
 type LinkSmallCardType = {
+  active?: boolean;
   title: string;
   link: string;
 };
 
-const LinkSmallCard = ({ title, link }: LinkSmallCardType) => {
+const LinkSmallCard = ({ active, title, link }: LinkSmallCardType) => {
   const location = usePathname();
   const isActive = location === link;
   return (
